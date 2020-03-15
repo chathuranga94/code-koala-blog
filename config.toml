@@ -29,8 +29,7 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "linkedin", "email"]
 
   [params.meta]
     # Sets the meta tag description
@@ -49,9 +48,10 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Code Koala by BIBI"
+    navbarLogo          = "/img/main/koala2.png"
     # Sets navbarTitle to match the section of the website
-    dynamicTitles       = true
+    dynamicTitles       = false
     searchMenu          = true
     shareMenu           = true
     languageMenu        = true
@@ -59,8 +59,8 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "Code Koala"
+    paragraph             = "Tech Insights by <a href='http://html5up.net'>UDARA BIBILE</a>."
     rssIntro              = true
     socialIntro           = true
     # You may not want to display a long intro above content in the
@@ -79,7 +79,7 @@ disableLanguages        = [""]
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "FULL STACK DEVELOPER.<br/>SOFTWARE ENGINEER.<br/>COMPUTER SCIENCE GRADUATE."
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -140,14 +140,21 @@ disableLanguages        = [""]
     identifier        = "categories"
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
-    weight            = 5
+    weight            = 6
 
   [[menu.main]]
     name              = "Contact"
     identifier        = "contact"
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
+    weight            = 5
+
+  [[menu.main]]
+    name              = "Tags"
+    identifier        = "tags"
+    url               = "/tags/"
+    pre               = "<i class='fa fa-tags'></i>"
+    weight            = 7
 
 [Languages]
   # Each language has its own menu.

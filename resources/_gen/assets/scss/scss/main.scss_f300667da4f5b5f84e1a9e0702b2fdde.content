@@ -828,6 +828,9 @@ table {
         font-size: 0.6em;
         letter-spacing: 0.25em;
         text-transform: uppercase; }
+      .post > header .meta .authorImage {
+        display: block;
+        width: 4em; }
   @media (min-width: 1024px) {
     .post > div, .post > p {
       margin: 0 1em; } }
@@ -835,7 +838,13 @@ table {
     .post > div, .post > p {
       margin: 0 4em; } }
   .post > div > p, .post > p {
-    text-align: justify; }
+    text-align: justify;
+    display: block;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: -0.625em 0 1.7em 0; }
   .post a.image {
     border: 0;
     display: block;
@@ -1277,6 +1286,15 @@ table {
         -ms-transition: -ms-transform 0.2s ease-out;
         transition: transform 0.2s ease-out;
         width: 100%; }
+
+#categories .categoryname {
+  display: block;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  margin: -0.625em 0 1.7em 0;
+  text-transform: uppercase; }
 
 #categories .count {
   float: right; }
