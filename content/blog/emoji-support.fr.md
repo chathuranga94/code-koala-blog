@@ -7,6 +7,7 @@ tags = ["emoji"]
 categories = [""]
 images  = ["img/2014/04/pic01.jpg"]
 type = "post"
+draft = true
 +++
 
 Emoji peut être activé dans un projet Hugo de plusieurs manières.

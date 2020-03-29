@@ -75,7 +75,7 @@ disableLanguages        = [""]
       src                 = "/img/main/koala.png"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
-      width               = ""
+      width               = "80%"
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
@@ -147,7 +147,7 @@ disableLanguages        = [""]
     identifier        = "contact"
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
-    weight            = 5
+    weight            = 8
 
   [[menu.main]]
     name              = "Tags"
@@ -155,6 +155,13 @@ disableLanguages        = [""]
     url               = "/tags/"
     pre               = "<i class='fa fa-tags'></i>"
     weight            = 7
+
+  [[menu.main]]
+    name              = "Authors"
+    identifier        = "authors"
+    url               = "/authors/"
+    pre               = "<i class='fas fa-user'></i>"
+    weight            = 8
 
 [Languages]
   # Each language has its own menu.

@@ -7,6 +7,7 @@ tags = ["markdown","text"]
 categories = [""]
 images  = ["img/2014/09/pic03.jpg"]
 type = "post"
+draft = true
 +++
 
 Lorem est tota propiore conpellat pectoribus de

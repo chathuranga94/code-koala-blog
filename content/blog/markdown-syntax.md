@@ -8,6 +8,7 @@ categories = ["themes", "syntax"]
 images  = ["img/2014/04/pic02.jpg"]
 type = "post"
 aliases = ["migrate-from-jekyl"]
+draft = true
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
