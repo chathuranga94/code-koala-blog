@@ -4,8 +4,8 @@ authorImage = "/img/udarabibile.png"
 title = "Introduction to React Hooks"
 date = "2019-07-19"
 description = "Giving superpowers to functional components"
-tags = ["sql", "css", "html"]
-categories = ["database", "syntax"]
+tags = ["reactjs", "syntax"]
+categories = ["javascript", "reactjs"]
 images  = ["img/2019/react-hooks.png"]
 type = "post"
 aliases = ["migrate-from-jekyl"]
@@ -281,9 +281,3 @@ Create custom hook: https://reactjs.org/docs/hooks-custom.html
 ```
 
 <br/><br/>
-
-<mark>TODO: CODE SNIPPETS -> BOLD<mark>
-
-<mark>TODO: EMPHASIZE FIRST LETTER<mark>
-<br/><br/>
-

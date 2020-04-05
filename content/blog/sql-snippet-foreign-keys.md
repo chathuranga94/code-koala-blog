@@ -4,7 +4,7 @@ authorImage = "/img/udarabibile.png"
 title = "SQL Snippet: Foreign Keys"
 date = "2019-09-24"
 description = "MANAGING RELATIONSHIPS BETWEEN DATABASE ATTRIBUTES."
-tags = ["sql", "css", "html"]
+tags = ["sql", "syntax"]
 categories = ["database", "software"]
 images  = ["img/2019/sql-foreign-keys.png"]
 type = "post"
@@ -25,8 +25,6 @@ Lets dive into a famous example involving book — author connection to gain ins
 Lets look into above scenarios for ease of this tutorial, even though some scenarios doesn't seem accurate in real world.
 
 SQL snippets found in this article is written to support SQLite and can be tested in https://sqliteonline.com/.
-
-<mark>TODO: EMBEDDED LINK</mark>
 
 <hr/>
 
@@ -292,8 +290,5 @@ Moreover, it should be noted that restriction happened only when deleting from A
 
 From this **SQL Snippet**, I think y’all are able to insight into managing data relationship in SQL database tables. Note that SQLite code segments are used here, and other implementation might vary little.
 
-<mark>TODO: CHANGE PARAGRAPH FONT<mark><br/>
-<mark>TODO: MAKE FULL WIDTH WITHOUT SIDEBAR<mark><br/>
-<mark>TODO: MAKE DARK THEME<mark>
 <br/><br/>
 
