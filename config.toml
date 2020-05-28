@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "http://codekoala.tech/"
 DefaultContentLanguage  = "en"
 title                   = "Code Koala"
 theme                   = "hugo-future-imperfect-slim"
@@ -142,12 +142,12 @@ disableLanguages        = [""]
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 6
 
-  [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "/contact/"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 8
+#  [[menu.main]]
+#    name              = "Contact"
+#    identifier        = "contact"
+#    url               = "/contact/"
+#    pre               = "<i class='far fa-envelope'></i>"
+#    weight            = 8
 
   [[menu.main]]
     name              = "Tags"
@@ -156,12 +156,12 @@ disableLanguages        = [""]
     pre               = "<i class='fa fa-tags'></i>"
     weight            = 7
 
-  [[menu.main]]
-    name              = "Authors"
-    identifier        = "authors"
-    url               = "/authors/"
-    pre               = "<i class='fas fa-user'></i>"
-    weight            = 8
+#  [[menu.main]]
+#    name              = "Authors"
+#    identifier        = "authors"
+#    url               = "/authors/"
+#    pre               = "<i class='fas fa-user'></i>"
+#    weight            = 8
 
 [Languages]
   # Each language has its own menu.
